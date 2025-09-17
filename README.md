@@ -28,7 +28,7 @@ It allows users to write stories with basic formatting, insert images, and save 
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/mini-story-editor.git
+git clone https://github.com/MDharshan27/mini-story-editor.git
 cd mini-story-editor
 ```
 
