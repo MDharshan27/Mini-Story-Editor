@@ -1,12 +1,80 @@
-# React + Vite
+# Mini Story Editor ✍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React + Vite** based story editor built with [Tiptap](https://tiptap.dev/).  
+It allows users to write stories with basic formatting, insert images, and save them locally.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Rich text editing (Bold, Italic, Headings, Paragraphs, etc.)
+- Insert and resize images
+- Placeholder text support
+- Save stories to local storage
+- View saved stories list
+- Responsive design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Tech Stack
+- [React](https://react.dev/) (Frontend UI)
+- [Vite](https://vitejs.dev/) (Build tool)
+- [Tiptap](https://tiptap.dev/) (Rich text editor)
+- [Babel](https://babeljs.io/) (Fast Refresh)
+- LocalStorage for saving stories
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/<your-username>/mini-story-editor.git
+cd mini-story-editor
+```
+
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Run the development server
+```bash
+npm run dev
+```
+Open http://localhost:5173 in your browser.
+
+### 4️⃣ Build for production
+```bash
+npm run build
+```
+
+### 5️⃣ Preview production build
+```bash
+npm run preview
+```
+
+### 📂 Project Structure
+```bash
+mini-story-editor/
+├─ index.html
+├─ package.json
+├─ src/
+│  ├─ main.jsx
+│  ├─ App.jsx
+│  ├─ styles.css
+│  ├─ components/
+│  │  ├─ StoryEditor.jsx
+│  │  ├─ Toolbar.jsx
+│  │  └─ StoriesList.jsx
+│  └─ utils/
+│     └─ storage.js
+```
+
+### 📂 Project Structure
+1. Start the app using npm run dev.
+2. Write your story in the editor.
+3. Insert images using the toolbar.
+4. Save the story → It will appear in the "Stories List".
+5. Select a story from the list to edit again.
+
+
