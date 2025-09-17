@@ -41,7 +41,8 @@ npm install
 ```bash
 npm run dev
 ```
-Open http://localhost:5173 in your browser.
+The app will be available at:
+👉 http://localhost:5173/
 
 ### 4️⃣ Build for production
 ```bash
